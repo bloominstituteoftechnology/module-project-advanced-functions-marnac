@@ -75,8 +75,11 @@
     // ❗ Notes:
     // 🧠 Solve this challenge using the map method of the learners array.
     // 🧠 Use arrow functions.
-    const processLearnerMap = () => {
-
+    const processLearnerMap = (learners) => {
+      learners.map(learner => {
+        processSingleLearner(learner)
+      })
+      return learners
     }
 
     // 👉 CHALLENGE 5
@@ -88,7 +91,7 @@
     // 🧠 Solve this challenge using the forEach method of the learners array.
     // 🧠 You will need to declare a result array into which you push learners from inside your forEach loop.
     const getJavaScriptLoversForEach = () => {
-
+      
     }
 
     // 👉 CHALLENGE 6
